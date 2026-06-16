@@ -10,7 +10,7 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "NND Bot Score",
+  "displayName": "Bot Score by New North Digital",
   "categories": ["UTILITY"],
   "brand": {
     "id": "brand_nnd",
