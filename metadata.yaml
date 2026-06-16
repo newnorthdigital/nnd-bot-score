@@ -1,5 +1,5 @@
 homepage: "https://newnorth.nl"
 documentation: "https://github.com/newnorthdigital/nnd-bot-score/blob/main/README.md"
 versions:
-  - sha: 1c9d9179922f8986accd30c1f69874dda5a46c27
+  - sha: f311d48ec13df3c4574fe873bbcefaee2c03fad4
     changeNotes: "Initial release."
