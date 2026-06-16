@@ -46,7 +46,7 @@ Download `template.tpl`, then GTM → **Templates** → **New** → ⋮ → **Im
 
 | Field | Default | Purpose |
 | --- | --- | --- |
-| **Output** | `Score` | `Score` (0–100 integer), `Boolean` (true when score ≥ threshold), or `Reasons` (comma-separated reason string, `clean` when none — handy as a debug GA4 parameter). |
+| **Output** | `Score` | `Score` (0–100 integer), `Boolean` (true when score ≥ threshold), `Reasons` (comma-separated reason string, `clean` when none), or `Classification` (`human` / `suspect` / `bot` — `human` at 0, `bot` at/above threshold, `suspect` in between). |
 | **Block threshold** | `70` | Cut-off used in boolean mode; the recommended trigger cut-off in score mode. |
 | **Count verified AI crawlers as bots** | off | Off = whitelist verified crawlers to 0. On = score them above threshold. |
 | **Country header override** | _(auto)_ | Header carrying a 2-letter country code. Empty = auto-detect `cf-ipcountry`, `x-vercel-ip-country`, `cloudfront-viewer-country`, `x-appengine-country`, `x-geo-country`, `x-country-code`. |

@@ -38,7 +38,8 @@ ___TEMPLATE_PARAMETERS___
     "selectItems": [
       { "value": "score", "displayValue": "Score (0-100 integer)" },
       { "value": "boolean", "displayValue": "Boolean (true when score >= threshold)" },
-      { "value": "reasons", "displayValue": "Reasons (comma-separated string)" }
+      { "value": "reasons", "displayValue": "Reasons (comma-separated string)" },
+      { "value": "classification", "displayValue": "Classification (human / suspect / bot)" }
     ],
     "simpleValueType": true,
     "defaultValue": "score"
@@ -219,6 +220,7 @@ const finish = (raw, reasons) => {
   let s = raw; if (s > 100) s = 100; if (s < 0) s = 0;
   log('score=' + s + ' reasons=[' + reasons.join(',') + ']');
   if (outputMode === 'reasons') return reasons.length ? reasons.join(',') : 'clean';
+  if (outputMode === 'classification') return s >= threshold ? 'bot' : (s > 0 ? 'suspect' : 'human');
   if (outputMode === 'boolean') return s >= threshold;
   return makeInteger(s);
 };
@@ -491,6 +493,48 @@ scenarios:
       return undefined;
     });
     assertThat(runCode(mockData)).isEqualTo('clean');
+- name: Classification bot for a datacenter visitor
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '20.1.1.1');
+    mock('getEventData', () => undefined);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Classification human for a clean visitor
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '84.105.4.12');
+    mock('getEventData', () => undefined);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('human');
+- name: Classification suspect for one mid-weight signal
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '84.105.4.12');
+    mock('getEventData', () => undefined);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36';
+      if (h === 'accept-language') return 'nl-NL,nl;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('suspect');
 setup: |-
   const mockData = {
     outputMode: 'score',
