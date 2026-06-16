@@ -6,7 +6,7 @@ By creating or modifying this file you agree to the Google Tag Manager Community
 ___INFO___
 
 {
-  "type": "VARIABLE",
+  "type": "MACRO",
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
