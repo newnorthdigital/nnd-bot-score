@@ -1,6 +1,9 @@
-___TERMS_OF_SERVICE___
+﻿___TERMS_OF_SERVICE___
 
-By creating or modifying this file you agree to the Google Tag Manager Community Template Gallery Developer Terms of Service available at https://developers.google.com/tag-manager/gallery-tos (last modified on August 21, 2020).
+By creating or modifying this file you agree to Google Tag Manager's Community
+Template Gallery Developer Terms of Service available at
+https://developers.google.com/tag-manager/gallery-tos (or such other URL as
+Google may provide), as modified from time to time.
 
 
 ___INFO___
@@ -11,14 +14,18 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Bot Score by New North Digital",
-  "categories": ["UTILITY"],
+  "categories": [
+    "UTILITY"
+  ],
   "brand": {
     "id": "brand_nnd",
     "displayName": "New North Digital",
     "thumbnail": "data:image/png;base64,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"
   },
   "description": "Server-side bot score (0-100) or boolean from datacenter-IP, headless/automation UA, client-hint coherence, platform/mobile mismatch and geo signals. Use as a GA4 server tag blocking-trigger exception. Verified AI crawlers are whitelisted by default.",
-  "containerContexts": ["SERVER"]
+  "containerContexts": [
+    "SERVER"
+  ]
 }
 
 
@@ -28,7 +35,7 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "LABEL",
     "name": "intro",
-    "displayName": "Returns a 0-100 bot score (higher = more bot-like) or a boolean. Run in <strong>score</strong> mode first to observe the distribution on real traffic before you wire it as a blocking-trigger exception."
+    "displayName": "Returns a 0-100 bot score (higher \u003d more bot-like) or a boolean. Run in \u003cstrong\u003escore\u003c/strong\u003e mode first to observe the distribution on real traffic before you wire it as a blocking-trigger exception."
   },
   {
     "type": "SELECT",
@@ -36,10 +43,22 @@ ___TEMPLATE_PARAMETERS___
     "displayName": "Output",
     "macrosInSelect": false,
     "selectItems": [
-      { "value": "score", "displayValue": "Score (0-100 integer)" },
-      { "value": "boolean", "displayValue": "Boolean (true when score >= threshold)" },
-      { "value": "reasons", "displayValue": "Reasons (comma-separated string)" },
-      { "value": "classification", "displayValue": "Classification (human / suspect / bot)" }
+      {
+        "value": "score",
+        "displayValue": "Score (0-100 integer)"
+      },
+      {
+        "value": "boolean",
+        "displayValue": "Boolean (true when score \u003e\u003d threshold)"
+      },
+      {
+        "value": "reasons",
+        "displayValue": "Reasons (comma-separated string)"
+      },
+      {
+        "value": "classification",
+        "displayValue": "Classification (human / suspect / bot)"
+      }
     ],
     "simpleValueType": true,
     "defaultValue": "score"
@@ -52,8 +71,16 @@ ___TEMPLATE_PARAMETERS___
     "defaultValue": 70,
     "help": "Score at or above which the visitor counts as a bot. Used directly in boolean mode; in score mode it is just the recommended cut-off for your blocking trigger. A datacenter IP alone scores 70.",
     "valueValidators": [
-      { "type": "NON_EMPTY" },
-      { "type": "REGEX", "args": ["^\\d{1,3}$"], "errorMessage": "Enter a number 0-100." }
+      {
+        "type": "NON_EMPTY"
+      },
+      {
+        "type": "REGEX",
+        "args": [
+          "^\\d{1,3}$"
+        ],
+        "errorMessage": "Enter a number 0-100."
+      }
     ]
   },
   {
@@ -62,7 +89,7 @@ ___TEMPLATE_PARAMETERS___
     "checkboxText": "Count verified AI crawlers as bots",
     "simpleValueType": true,
     "defaultValue": false,
-    "help": "Off (default): verified AI crawlers (GPTBot, ChatGPT-User, Googlebot, ...) score 0 and are never blocked. On: they score above the threshold so they are excluded from GA4. \"Verified\" means the UA matches a known crawler AND the IP is in that crawler's published range, so a spoofed crawler UA is still scored normally."
+    "help": "Off (default): verified AI crawlers (GPTBot, ChatGPT-User, Googlebot, ...) score 0 and are never blocked. On: they score above the threshold so they are excluded from GA4. \"Verified\" means the UA matches a known crawler AND the IP is in that crawler\u0027s published range, so a spoofed crawler UA is still scored normally."
   },
   {
     "type": "GROUP",
@@ -84,7 +111,7 @@ ___TEMPLATE_PARAMETERS___
         "displayName": "In-market countries / regions",
         "simpleValueType": true,
         "valueHint": "NL,BE,DE or EU",
-        "help": "Comma-separated 2-letter country codes (NL, BE) and/or continent codes (EU, NA, AS, AF, SA, OC) for the client's real markets. A datacenter IP geolocating OUTSIDE these gets a small nudge; in-market traffic is never penalised."
+        "help": "Comma-separated 2-letter country codes (NL, BE) and/or continent codes (EU, NA, AS, AF, SA, OC) for the client\u0027s real markets. A datacenter IP geolocating OUTSIDE these gets a small nudge; in-market traffic is never penalised."
       },
       {
         "type": "TEXT",
@@ -326,47 +353,102 @@ ___SERVER_PERMISSIONS___
 [
   {
     "instance": {
-      "key": { "publicId": "read_request", "versionId": "1" },
+      "key": {
+        "publicId": "read_request",
+        "versionId": "1"
+      },
       "param": [
-        { "key": "headerAccess", "value": { "type": 1, "string": "any" } },
-        { "key": "headersAllowed", "value": { "type": 8, "boolean": true } },
-        { "key": "requestAccess", "value": { "type": 1, "string": "specific" } },
-        { "key": "queryParameterAccess", "value": { "type": 1, "string": "any" } },
-        { "key": "pathAccess", "value": { "type": 1, "string": "any" } },
-        { "key": "remoteAddressAccess", "value": { "type": 8, "boolean": true } }
+        {
+          "key": "headersAllowed",
+          "value": {
+            "type": 8,
+            "boolean": true
+          }
+        },
+        {
+          "key": "requestAccess",
+          "value": {
+            "type": 1,
+            "string": "specific"
+          }
+        },
+        {
+          "key": "headerAccess",
+          "value": {
+            "type": 1,
+            "string": "any"
+          }
+        },
+        {
+          "key": "queryParameterAccess",
+          "value": {
+            "type": 1,
+            "string": "any"
+          }
+        }
       ]
     },
-    "clientAnnotations": { "isEditedByUser": true },
+    "clientAnnotations": {
+      "isEditedByUser": true
+    },
     "isRequired": true
   },
   {
     "instance": {
-      "key": { "publicId": "read_event_data", "versionId": "1" },
+      "key": {
+        "publicId": "read_event_data",
+        "versionId": "1"
+      },
       "param": [
-        { "key": "eventDataAccess", "value": { "type": 1, "string": "specific" } },
         {
           "key": "keyPatterns",
           "value": {
             "type": 2,
             "listItem": [
-              { "type": 1, "string": "ip_override" },
-              { "type": 1, "string": "user_agent" }
+              {
+                "type": 1,
+                "string": "ip_override"
+              },
+              {
+                "type": 1,
+                "string": "user_agent"
+              }
             ]
+          }
+        },
+        {
+          "key": "eventDataAccess",
+          "value": {
+            "type": 1,
+            "string": "specific"
           }
         }
       ]
     },
-    "clientAnnotations": { "isEditedByUser": true },
+    "clientAnnotations": {
+      "isEditedByUser": true
+    },
     "isRequired": true
   },
   {
     "instance": {
-      "key": { "publicId": "logging", "versionId": "1" },
+      "key": {
+        "publicId": "logging",
+        "versionId": "1"
+      },
       "param": [
-        { "key": "environments", "value": { "type": 1, "string": "debug" } }
+        {
+          "key": "environments",
+          "value": {
+            "type": 1,
+            "string": "debug"
+          }
+        }
       ]
     },
-    "clientAnnotations": { "isEditedByUser": true },
+    "clientAnnotations": {
+      "isEditedByUser": true
+    },
     "isRequired": true
   }
 ]
@@ -592,3 +674,5 @@ PERMISSIONS
   Written by hand — IMPORT INTO THE GTM TEMPLATE EDITOR, run the tests, let it
   flag any permission gaps, fix in the Permissions tab, and re-export to get
   GTM's canonical permission block before deploying.
+
+
