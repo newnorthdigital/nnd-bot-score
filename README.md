@@ -50,8 +50,8 @@ Download `template.tpl`, then GTM → **Templates** → **New** → ⋮ → **Im
 | **Block threshold** | `70` | Cut-off used in boolean mode; the recommended trigger cut-off in score mode. |
 | **Count verified AI crawlers as bots** | off | Off = whitelist verified crawlers to 0. On = score them above threshold. |
 | **Country header override** | _(auto)_ | Header carrying a 2-letter country code. Empty = auto-detect `cf-ipcountry`, `x-vercel-ip-country`, `cloudfront-viewer-country`, `x-appengine-country`, `x-geo-country`, `x-country-code`. |
-| **In-market countries** | _(none)_ | Datacenter IPs geolocating outside these get a small nudge; in-market traffic is never penalised. |
-| **High-risk countries** | _(none)_ | Optional score-only nudge for specific countries. |
+| **In-market countries / regions** | _(none)_ | 2-letter country codes (`NL`, `BE`) and/or continent codes (`EU`, `NA`, `AS`, `AF`, `SA`, `OC`). Datacenter IPs geolocating outside these get a small nudge; in-market traffic is never penalised. |
+| **High-risk countries / regions** | _(none)_ | Same country/continent syntax — a score-only nudge for the listed places. |
 
 ## IP & header availability
 
