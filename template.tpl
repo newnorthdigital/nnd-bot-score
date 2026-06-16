@@ -95,11 +95,19 @@ ___TEMPLATE_PARAMETERS___
     ]
   },
   {
-    "type": "CHECKBOX",
-    "name": "debug",
-    "checkboxText": "Log the score and reasons to console (debug/preview only)",
-    "simpleValueType": true,
-    "defaultValue": false
+    "type": "GROUP",
+    "name": "advancedGroup",
+    "displayName": "Advanced",
+    "groupStyle": "ZIPPY_CLOSED",
+    "subParams": [
+      {
+        "type": "CHECKBOX",
+        "name": "debug",
+        "checkboxText": "Log the score and reasons to console (debug/preview only)",
+        "simpleValueType": true,
+        "defaultValue": false
+      }
+    ]
   }
 ]
 
