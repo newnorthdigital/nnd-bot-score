@@ -22,7 +22,7 @@ ___INFO___
     "displayName": "New North Digital",
     "thumbnail": "data:image/png;base64,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"
   },
-  "description": "Server-side bot score (0-100) or boolean from datacenter-IP, headless/automation UA, client-hint coherence, platform/mobile mismatch and geo signals. Use as a GA4 server tag blocking-trigger exception. Verified AI crawlers are whitelisted by default.",
+  "description": "Server-side bot score (0-100) or boolean from datacenter-IP, spam-referrer, headless/automation UA, client-hint coherence, platform/mobile mismatch and geo signals. Use as a GA4 server tag blocking-trigger exception. Verified AI crawlers are whitelisted by default.",
   "containerContexts": [
     "SERVER"
   ]
@@ -69,7 +69,7 @@ ___TEMPLATE_PARAMETERS___
     "displayName": "Block threshold",
     "simpleValueType": true,
     "defaultValue": 70,
-    "help": "Score at or above which the visitor counts as a bot. Used directly in boolean mode; in score mode it is just the recommended cut-off for your blocking trigger. A datacenter IP alone scores 70.",
+    "help": "Score at or above which the visitor counts as a bot. Used directly in boolean mode; in score mode it is just the recommended cut-off for your blocking trigger. A datacenter IP or a known spam referrer alone scores 70.",
     "valueValidators": [
       {
         "type": "NON_EMPTY"
@@ -130,6 +130,14 @@ ___TEMPLATE_PARAMETERS___
     "groupStyle": "ZIPPY_CLOSED",
     "subParams": [
       {
+        "type": "TEXT",
+        "name": "spamReferrers",
+        "displayName": "Extra spam referrer domains",
+        "simpleValueType": true,
+        "valueHint": "example-traffic-seller.com, spam.example",
+        "help": "Comma-separated domains to score as referral spam on top of the bundled traffic-seller list (trafficheap.cc, sparktraffic.com, ...). Matched against the page_referrer hostname including subdomains. A match alone meets the default threshold."
+      },
+      {
         "type": "CHECKBOX",
         "name": "debug",
         "checkboxText": "Log the score and reasons to console (debug/preview only)",
@@ -168,6 +176,7 @@ const CONTINENT = {ac:'af',ad:'eu',ae:'as',af:'as',ag:'na',ai:'na',al:'eu',am:'a
 // cross 70). Tune here, not in the UI, so scores stay comparable across
 // containers.
 const W_DATACENTER = 70;        // primary    — client IP in a cloud/hosting range
+const W_SPAM_REFERRER = 70;     // primary    — page_referrer is a traffic-seller domain
 const W_HEADLESS = 40;          // high       — automation/library/empty UA
 const W_NO_CLIENT_HINTS = 25;   // medium     — modern-Chromium UA, no sec-ch-ua
 const W_PLATFORM_MISMATCH = 25; // medium     — sec-ch-ua-platform vs UA OS
@@ -234,6 +243,13 @@ const containsAny = (hay, needles) => {
 const AI_CRAWLER_UAS = ['gptbot','oai-searchbot','chatgpt-user','claudebot','anthropic-ai','perplexitybot','ccbot','bytespider','amazonbot','google-extended','googlebot','applebot','meta-externalagent'];
 const AUTOMATION_UAS = ['headlesschrome','headless','phantomjs','puppeteer','playwright','selenium','webdriver','python-requests','python-urllib','aiohttp','go-http-client','curl/','wget/','okhttp','node-fetch','axios/','java/','libwww','scrapy','httpclient','httpx'];
 
+// Traffic-seller / referral-spam domains. These services advertise themselves
+// in page_referrer (their bots do real page loads, often from residential
+// proxies our IP ranges can't catch), so a match is near-certain bot traffic.
+// Suffix-matched: 'grets.store' also catches 'news.grets.store'. Extend via
+// the "Extra spam referrer domains" field.
+const SPAM_REFERRER_DOMAINS = ['trafficheap.cc','sparktraffic.com','babylontraffic.com','simpletraffic.co','trafficbot.life','bot-traffic.icu','grets.store','garold.store','razas.site','ofer.bar','semalt.com','darodar.com','buttons-for-website.com','best-seo-offer.com','100dollars-seo.com','free-share-buttons.com','free-social-buttons.com','floating-share-buttons.com','event-tracking.com','get-free-traffic-now.com'];
+
 // UA from request header, falling back to the GA4 client's event user_agent.
 let uaRaw = header('user-agent');
 if (!uaRaw) uaRaw = str(getEventData('user_agent'));
@@ -270,6 +286,23 @@ if (isDatacenter) add(W_DATACENTER, 'datacenter-ip');
 if (!ua) add(W_HEADLESS, 'empty-ua');
 else if (containsAny(ua, AUTOMATION_UAS)) add(W_HEADLESS, 'automation-ua');
 if (claimsAiCrawler && !verifiedAiCrawler) add(W_HEADLESS, 'unverified-ai-crawler-ua');
+
+// Referral spam: hostname of page_referrer suffix-matched against the bundled
+// traffic-seller list plus the user's extras.
+const hostMatches = (host, domain) => {
+  if (!domain || !host) return false;
+  if (host === domain) return true;
+  const suf = '.' + domain;
+  return host.length > suf.length && host.substring(host.length - suf.length) === suf;
+};
+const refRaw = lower(str(getEventData('page_referrer')));
+const refHost = refRaw ? (refRaw.indexOf('//') !== -1 ? refRaw.split('//')[1] : refRaw).split('/')[0].split(':')[0] : '';
+if (refHost) {
+  let spamRef = false;
+  SPAM_REFERRER_DOMAINS.forEach((d) => { if (hostMatches(refHost, d)) spamRef = true; });
+  lower(str(data.spamReferrers)).split(',').forEach((d) => { if (hostMatches(refHost, d.split(' ').join(''))) spamRef = true; });
+  if (spamRef) add(W_SPAM_REFERRER, 'spam-referrer');
+}
 
 // "Claims to be a browser" gates. Chromium >=89 sends sec-ch-ua + accept-language
 // on HTTPS; Safari/Firefox don't send sec-ch-ua, so those checks are GATED on a
@@ -412,6 +445,10 @@ ___SERVER_PERMISSIONS___
               {
                 "type": 1,
                 "string": "user_agent"
+              },
+              {
+                "type": 1,
+                "string": "page_referrer"
               }
             ]
           }
@@ -521,6 +558,63 @@ scenarios:
       return undefined;
     });
     assertThat(runCode(mockData)).isEqualTo(80);
+- name: Spam referrer alone meets the threshold (trafficheap pattern)
+  code: |-
+    mock('getRemoteAddress', () => '84.105.4.12');
+    mock('getEventData', (k) => (k === 'page_referrer' ? 'https://trafficheap.cc/' : undefined));
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo(70);
+- name: Spam referrer subdomain is suffix-matched
+  code: |-
+    mock('getRemoteAddress', () => '84.105.4.12');
+    mock('getEventData', (k) => (k === 'page_referrer' ? 'https://news.grets.store/some/path' : undefined));
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo(70);
+- name: User-supplied extra spam domain is matched
+  code: |-
+    mockData.spamReferrers = 'evil-traffic.example, other.example';
+    mock('getRemoteAddress', () => '84.105.4.12');
+    mock('getEventData', (k) => (k === 'page_referrer' ? 'https://evil-traffic.example/' : undefined));
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo(70);
+- name: Legit referrer host containing a spam domain substring is NOT matched
+  code: |-
+    mock('getRemoteAddress', () => '84.105.4.12');
+    mock('getEventData', (k) => (k === 'page_referrer' ? 'https://nottrafficheap.cc.example.com/' : undefined));
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo(0);
 - name: Verified Googlebot is whitelisted to zero by default
   code: |-
     mock('getRemoteAddress', () => '66.249.66.1');
@@ -622,6 +716,7 @@ setup: |-
     outputMode: 'score',
     threshold: 70,
     blockAiCrawlers: false,
+    spamReferrers: '',
     geoHeader: '',
     inMarketRegions: '',
     highRiskRegions: '',
@@ -647,12 +742,25 @@ ROLLOUT (shadow mode first)
      positive here = a lost real conversion, so don't block on day one.
 
 SIGNALS & WEIGHTS (see the W_* constants)
-  Datacenter IP (70) is the decisive lever and is region-agnostic. Everything
-  else corroborates: automation/empty UA (40); missing/forged client hints
-  (25/20); platform & mobile mismatch (25/20); missing accept-language /
-  accept-encoding (15/15); outdated Chromium (10); geo nudges (10). A clean
-  residential browser scores 0; a residential IP must fail several integrity
-  checks at once to cross 70.
+  Datacenter IP (70) and spam referrer (70) are the decisive levers; either
+  alone meets the default threshold. Everything else corroborates:
+  automation/empty UA (40); missing/forged client hints (25/20); platform &
+  mobile mismatch (25/20); missing accept-language / accept-encoding (15/15);
+  outdated Chromium (10); geo nudges (10). A clean residential browser scores
+  0; a residential IP must fail several integrity checks at once to cross 70.
+
+SPAM REFERRERS
+  Traffic-seller services (trafficheap.cc and competitors like sparktraffic /
+  babylontraffic / simpletraffic) run real headless page loads, often from
+  residential proxies the datacenter ranges can't catch — but they advertise
+  themselves in the referrer, which GA4 forwards as page_referrer. The bundled
+  SPAM_REFERRER_DOMAINS list covers known sellers plus documented GA4 referral
+  spam (grets.store, garold.store, razas.site, ofer.bar, ...); hostname is
+  suffix-matched so subdomains count. These domains churn — extend per
+  container via "Extra spam referrer domains" and fold recurring ones back
+  into the bundled list. Note page_referrer is only present on events that
+  carry it (page_view typically); later events in the session fall back to
+  the other signals.
 
 IP & HEADER AVAILABILITY
   getRemoteAddress() returns the socket peer, which is your CDN/proxy if one

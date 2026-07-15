@@ -13,6 +13,7 @@ GA4 already drops known IAB bots. What it misses is **headless browsers, scrapin
 | Signal | Weight | Notes |
 | --- | --- | --- |
 | Client IP in a datacenter / hosting range | 70 | Primary, region-agnostic. Matched against bundled, official cloud ranges (AWS, GCP, Azure, DO, Hetzner, OVH, Linode, Vultr). |
+| Referrer is a known traffic-seller / spam domain | 70 | Primary. `page_referrer` hostname suffix-matched against a bundled list (trafficheap.cc, sparktraffic.com, babylontraffic.com, simpletraffic.co, trafficbot.life, GA4-era referral spam like `grets.store`, classic UA-era spammers) plus your own additions. Catches paid-traffic bots on residential proxies that the IP ranges can't. |
 | Headless / automation / empty UA | 40 | `HeadlessChrome`, `python-requests`, `Go-http-client`, Puppeteer, Playwright, curl, … Precise but spoofable. |
 | Modern-Chromium UA with no `sec-ch-ua` | 25 | Gated on a Chromium UA claim — Safari/Firefox are never penalised. |
 | `sec-ch-ua-platform` contradicts the UA OS | 25 | e.g. UA says Windows, hint says Linux. |
@@ -24,7 +25,7 @@ GA4 already drops known IAB bots. What it misses is **headless browsers, scrapin
 | Datacenter IP outside the client's market | 10 | Score-only nudge, never blocks. |
 | Country on a high-risk list | 10 | Score-only nudge, never blocks. |
 
-The score is capped at 100. A clean residential browser scores **0**; a residential IP must fail several integrity checks at once to cross 70, so the datacenter signal stays the decisive lever.
+The score is capped at 100. A clean residential browser scores **0**; a residential IP must fail several integrity checks at once to cross 70, so the datacenter and spam-referrer signals stay the decisive levers.
 
 **Verified AI crawlers are whitelisted by default** (score 0). "Verified" means the UA matches a known crawler **and** the IP is in that crawler's published range (GPTBot, ChatGPT-User, OAI-SearchBot, Googlebot, Google special crawlers are bundled), so a spoofed `GPTBot` UA from a random host is still scored normally. Flip **Count verified AI crawlers as bots** on if you want clean human-only analytics.
 
@@ -52,6 +53,7 @@ Download `template.tpl`, then GTM → **Templates** → **New** → ⋮ → **Im
 | **Country header override** | _(auto)_ | Header carrying a 2-letter country code. Empty = auto-detect `cf-ipcountry`, `x-vercel-ip-country`, `cloudfront-viewer-country`, `x-appengine-country`, `x-geo-country`, `x-country-code`. |
 | **In-market countries / regions** | _(none)_ | 2-letter country codes (`NL`, `BE`) and/or continent codes (`EU`, `NA`, `AS`, `AF`, `SA`, `OC`). Datacenter IPs geolocating outside these get a small nudge; in-market traffic is never penalised. |
 | **High-risk countries / regions** | _(none)_ | Same country/continent syntax — a score-only nudge for the listed places. |
+| **Extra spam referrer domains** | _(none)_ | Comma-separated domains scored as referral spam on top of the bundled traffic-seller list. Matched against the `page_referrer` hostname including subdomains. A match alone meets the default threshold. |
 
 ## IP & header availability
 
