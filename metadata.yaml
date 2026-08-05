@@ -1,5 +1,7 @@
 homepage: "https://newnorth.nl"
 documentation: "https://github.com/newnorthdigital/nnd-bot-score/blob/main/README.md"
 versions:
+  - sha: 661e17f706459424bb3ed25b5b328732ae6ceb79
+    changeNotes: "Rename to 'Bot Score by New North', new brand icon, and a spam-referrer signal (weight 70) with a bundled traffic-seller domain list."
   - sha: 757e7b90e97188420a7a7ccea7998a2e4dac110f
     changeNotes: "Initial release."
