@@ -14,6 +14,8 @@ GA4 already drops known IAB bots. What it misses is **headless browsers, scrapin
 | --- | --- | --- |
 | Client IP in a datacenter / hosting range | 70 | Primary, region-agnostic. Matched against bundled, official cloud ranges (AWS, GCP, Azure, DO, Hetzner, OVH, Linode, Vultr). |
 | Referrer is a known traffic-seller / spam domain | 70 | Primary. `page_referrer` hostname suffix-matched against a bundled list (trafficheap.cc, sparktraffic.com, babylontraffic.com, simpletraffic.co, trafficbot.life, GA4-era referral spam like `grets.store`, classic UA-era spammers) plus your own additions. Catches paid-traffic bots on residential proxies that the IP ranges can't. |
+| `navigator.webdriver` is true (needs the Bot Signal web tag) | 70 | Primary. The browser is under automation (Selenium, Puppeteer, Playwright without stealth patches). |
+| Scrolled more than a viewport with no input all session (needs the Bot Signal web tag) | 40 | Scripts scroll with `window.scrollTo`, which fires `scroll` but no wheel, touch, key or pointer event. Ignored once the session shows any real input. |
 | Headless / automation / empty UA | 40 | `HeadlessChrome`, `python-requests`, `Go-http-client`, Puppeteer, Playwright, curl, … Precise but spoofable. |
 | Modern-Chromium UA with no `sec-ch-ua` | 25 | Gated on a Chromium UA claim — Safari/Firefox are never penalised. |
 | `sec-ch-ua-platform` contradicts the UA OS | 25 | e.g. UA says Windows, hint says Linux. |
@@ -28,6 +30,18 @@ GA4 already drops known IAB bots. What it misses is **headless browsers, scrapin
 The score is capped at 100. A clean residential browser scores **0**; a residential IP must fail several integrity checks at once to cross 70, so the datacenter and spam-referrer signals stay the decisive levers.
 
 **Verified AI crawlers are whitelisted by default** (score 0). "Verified" means the UA matches a known crawler **and** the IP is in that crawler's published range (GPTBot, ChatGPT-User, OAI-SearchBot, Googlebot, Google special crawlers are bundled), so a spoofed `GPTBot` UA from a random host is still scored normally. Flip **Count verified AI crawlers as bots** on if you want clean human-only analytics.
+
+## Browser behaviour: Bot Signal web tag
+
+Headers and IPs can't show how a visitor behaves. Install the companion web template [Bot Signal by New North](https://github.com/newnorthdigital/bot-signal-web-tag) on All Pages in the web container. It writes the session cookie `_nnd_hs` with flags only (no identifiers):
+
+- `i`: real input seen (wheel, touch, key, pointer, mouse move)
+- `s`: scrolled more than one viewport without any input
+- `w`: `navigator.webdriver` is true
+
+This variable merges the `nnd_hs` event parameter with every `_nnd_hs` cookie copy; real input from any source cancels scripted scroll. With the server container on a same-site subdomain (e.g. `sst.example.com`) the cookie arrives on GA4 hits automatically. Otherwise add a 1st-party cookie variable for `_nnd_hs` in the web container and send it as event parameter `nnd_hs` on your GA4 event tags (an Event Settings variable works), so it is read fresh on every event.
+
+Behaviour arrives after the landing `page_view`, so these signals raise the score of later hits in the session. Use them to hold back conversions (Meta CAPI, Google Ads, Klaviyo) and to label traffic, not to block the landing hit.
 
 ## Installation
 
@@ -62,7 +76,8 @@ Download `template.tpl`, then GTM → **Templates** → **New** → ⋮ → **Im
 ## Permissions
 
 - `read_request` — client IP + request headers.
-- `read_event_data` — `ip_override`, `user_agent`.
+- `read_event_data` — `ip_override`, `user_agent`, `page_referrer`, `nnd_hs`.
+- `get_cookies` — `_nnd_hs` (Bot Signal flags).
 - `logging` — debug logging in Preview only.
 
 ## Maintaining the IP ranges
