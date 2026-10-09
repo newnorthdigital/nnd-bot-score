@@ -1,6 +1,8 @@
 homepage: "https://newnorth.nl"
 documentation: "https://github.com/newnorthdigital/nnd-bot-score/blob/main/README.md"
 versions:
+  - sha: fbcf1c953235ec6dba3ddd7e67cd6062009ed913
+    changeNotes: "Browser behaviour signals from the Bot Signal by New North web tag: webdriver (weight 70) and scripted scroll without any input (weight 40). Read from the _nnd_hs cookie or the nnd_hs event parameter."
   - sha: 661e17f706459424bb3ed25b5b328732ae6ceb79
     changeNotes: "Rename to 'Bot Score by New North', new brand icon, and a spam-referrer signal (weight 70) with a bundled traffic-seller domain list."
   - sha: 757e7b90e97188420a7a7ccea7998a2e4dac110f
