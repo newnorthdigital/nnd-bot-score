@@ -22,7 +22,7 @@ ___INFO___
     "displayName": "New North Digital",
     "thumbnail": "data:image/png;base64,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\u003d"
   },
-  "description": "Server-side bot score (0-100) or boolean from datacenter-IP, spam-referrer, headless/automation UA, client-hint coherence, platform/mobile mismatch and geo signals. Use as a GA4 server tag blocking-trigger exception. Verified AI crawlers are whitelisted by default.",
+  "description": "Server-side bot score (0-100) or boolean from datacenter-IP, spam-referrer, headless/automation UA, client-hint coherence, platform/mobile mismatch and geo signals. Use as a GA4 server tag blocking-trigger exception. Verified AI crawlers are whitelisted by default. A datacenter IP alone doesn't block a purchase or a declared AI agent.",
   "containerContexts": [
     "SERVER"
   ]
@@ -57,7 +57,7 @@ ___TEMPLATE_PARAMETERS___
       },
       {
         "value": "classification",
-        "displayValue": "Classification (human / suspect / bot)"
+        "displayValue": "Classification (human / suspect / agent / crawler / bot)"
       }
     ],
     "simpleValueType": true,
@@ -69,7 +69,7 @@ ___TEMPLATE_PARAMETERS___
     "displayName": "Block threshold",
     "simpleValueType": true,
     "defaultValue": 70,
-    "help": "Score at or above which the visitor counts as a bot. Used directly in boolean mode; in score mode it is just the recommended cut-off for your blocking trigger. A datacenter IP or a known spam referrer alone scores 70.",
+    "help": "Score at or above which the visitor counts as a bot. Used directly in boolean mode; in score mode it is the recommended cut-off for your blocking trigger, and a trigger below 41 needs this field set to the same value to keep protected events working. A datacenter IP (except on protected events) or a known spam referrer alone scores 70.",
     "valueValidators": [
       {
         "type": "NON_EMPTY"
@@ -90,6 +90,15 @@ ___TEMPLATE_PARAMETERS___
     "simpleValueType": true,
     "defaultValue": false,
     "help": "Off (default): verified AI crawlers (GPTBot, ChatGPT-User, Googlebot, ...) score 0 and are never blocked. On: they score above the threshold so they are excluded from GA4. \"Verified\" means the UA matches a known crawler AND the IP is in that crawler\u0027s published range, so a spoofed crawler UA is still scored normally."
+  },
+  {
+    "type": "TEXT",
+    "name": "protectedEvents",
+    "displayName": "Protected events",
+    "simpleValueType": true,
+    "defaultValue": "purchase",
+    "valueHint": "purchase, subscribe",
+    "help": "Comma-separated event names where a datacenter IP alone does not meet the threshold (it scores 40 instead of 70, or just under a lower threshold), because a real order can come from a VPN, a company network or an AI agent running in the cloud. Automation signals still add up to a block. Enter none to switch this off. Order events your server sends itself, such as webhooks, should skip the blocking trigger altogether."
   },
   {
     "type": "GROUP",
@@ -138,6 +147,14 @@ ___TEMPLATE_PARAMETERS___
         "help": "Comma-separated domains to score as referral spam on top of the bundled traffic-seller list (trafficheap.cc, sparktraffic.com, ...). Matched against the page_referrer hostname including subdomains. A match alone meets the default threshold."
       },
       {
+        "type": "TEXT",
+        "name": "declaredAgents",
+        "displayName": "Extra declared AI agents",
+        "simpleValueType": true,
+        "valueHint": "agent.example.com",
+        "help": "Comma-separated hostnames from the Signature-Agent request header (Web Bot Auth) to treat as declared AI agents, on top of the bundled list (chatgpt.com). The signature itself is not verified, see the notes."
+      },
+      {
         "type": "CHECKBOX",
         "name": "debug",
         "checkboxText": "Log the score and reasons to console (debug/preview only)",
@@ -177,6 +194,7 @@ const CONTINENT = {ac:'af',ad:'eu',ae:'as',af:'as',ag:'na',ai:'na',al:'eu',am:'a
 // cross 70). Tune here, not in the UI, so scores stay comparable across
 // containers.
 const W_DATACENTER = 70;        // primary    — client IP in a cloud/hosting range
+const W_DATACENTER_PROTECTED = 40; // high  — same, on a protected event (real orders come from VPNs and cloud agents)
 const W_SPAM_REFERRER = 70;     // primary    — page_referrer is a traffic-seller domain
 const W_WEBDRIVER = 70;         // primary    — Bot Signal: navigator.webdriver true
 const W_SCRIPTED_SCROLL = 40;   // high       — Bot Signal: scrolled with no input all session
@@ -253,6 +271,10 @@ const AUTOMATION_UAS = ['headlesschrome','headless','phantomjs','puppeteer','pla
 // the "Extra spam referrer domains" field.
 const SPAM_REFERRER_DOMAINS = ['trafficheap.cc','sparktraffic.com','babylontraffic.com','simpletraffic.co','trafficbot.life','bot-traffic.icu','grets.store','garold.store','razas.site','ofer.bar','semalt.com','darodar.com','buttons-for-website.com','best-seo-offer.com','100dollars-seo.com','free-share-buttons.com','free-social-buttons.com','floating-share-buttons.com','event-tracking.com','get-free-traffic-now.com'];
 
+// Web Bot Auth agents by Signature-Agent host. Only agents whose vendor documents
+// the header belong here; extend via "Extra declared AI agents".
+const DECLARED_AGENT_HOSTS = ['chatgpt.com'];
+
 // UA from request header, falling back to the GA4 client's event user_agent.
 let uaRaw = header('user-agent');
 if (!uaRaw) uaRaw = str(getEventData('user_agent'));
@@ -261,12 +283,13 @@ const ipInt = ipv4ToInt(resolveIp());
 
 const outputMode = str(data.outputMode) || 'score';
 const threshold = numOr(data.threshold, 70);
+let classOverride = ''; // 'agent' or 'crawler' when the visitor says what it is
 
 const finish = (raw, reasons) => {
   let s = raw; if (s > 100) s = 100; if (s < 0) s = 0;
   log('score=' + s + ' reasons=[' + reasons.join(',') + ']');
   if (outputMode === 'reasons') return reasons.length ? reasons.join(',') : 'clean';
-  if (outputMode === 'classification') return s >= threshold ? 'bot' : (s > 0 ? 'suspect' : 'human');
+  if (outputMode === 'classification') return s >= threshold ? 'bot' : (classOverride || (s > 0 ? 'suspect' : 'human'));
   if (outputMode === 'boolean') return s >= threshold;
   return makeInteger(s);
 };
@@ -276,28 +299,66 @@ const finish = (raw, reasons) => {
 // published range, so a spoofed "GPTBot" UA from a random host is NOT trusted.
 const claimsAiCrawler = containsAny(ua, AI_CRAWLER_UAS);
 const verifiedAiCrawler = claimsAiCrawler && inRanges(ipInt, AI_CRAWLER_RANGES);
-if (verifiedAiCrawler && data.blockAiCrawlers !== true) return finish(0, ['verified-ai-crawler-allowed']);
+if (verifiedAiCrawler && data.blockAiCrawlers !== true) { classOverride = 'crawler'; return finish(0, ['verified-ai-crawler-allowed']); }
 
 let score = 0; const reasons = [];
 const add = (w, why) => { score = score + w; reasons.push(why); };
 
 if (verifiedAiCrawler && data.blockAiCrawlers === true) add(W_DATACENTER, 'ai-crawler-blocked');
 
-const isDatacenter = inRanges(ipInt, DATACENTER_RANGES);
-if (isDatacenter) add(W_DATACENTER, 'datacenter-ip');
-
-if (!ua) add(W_HEADLESS, 'empty-ua');
-else if (containsAny(ua, AUTOMATION_UAS)) add(W_HEADLESS, 'automation-ua');
-if (claimsAiCrawler && !verifiedAiCrawler) add(W_HEADLESS, 'unverified-ai-crawler-ua');
-
-// Referral spam: hostname of page_referrer suffix-matched against the bundled
-// traffic-seller list plus the user's extras.
 const hostMatches = (host, domain) => {
   if (!domain || !host) return false;
   if (host === domain) return true;
   const suf = '.' + domain;
   return host.length > suf.length && host.substring(host.length - suf.length) === suf;
 };
+
+const automationUa = !!ua && containsAny(ua, AUTOMATION_UAS);
+const claimsChromium = ua.indexOf('chrome/') !== -1 || ua.indexOf('chromium/') !== -1 || ua.indexOf('edg/') !== -1;
+const claimsBrowser = claimsChromium || ua.indexOf('safari') !== -1 || ua.indexOf('firefox') !== -1 || ua.indexOf('gecko/') !== -1;
+
+// Declared AI agent (Web Bot Auth): a signed request names its agent in
+// Signature-Agent, as "https://host" or as dictionary members with that URL.
+// The sandbox cannot check the Ed25519 signature, so this is a claim: it only
+// waives the datacenter signals and labels the hit, every other signal still
+// counts, and only a browser UA that isn't an automation UA qualifies. The
+// reason carries our list entry, never the header text, which the sender controls.
+let declaredAgent = '';
+if (claimsBrowser && !automationUa && !verifiedAiCrawler && header('signature') && lower(header('signature-input')).indexOf('web-bot-auth') !== -1) {
+  const hosts = lower(str(data.declaredAgents)).split(',');
+  DECLARED_AGENT_HOSTS.forEach((d) => hosts.push(d));
+  lower(header('signature-agent')).split('https://').forEach((member, i) => {
+    if (i === 0) return; // text before the first URL
+    const authority = member.split('"')[0].split('/')[0];
+    if (authority.indexOf('@') !== -1) return;
+    const host = authority.split(':')[0];
+    hosts.forEach((d) => { const h = d.split(' ').join(''); if (hostMatches(host, h)) declaredAgent = h; });
+  });
+}
+if (declaredAgent) { classOverride = 'agent'; add(0, 'declared-agent:' + declaredAgent); }
+
+// Protected events: a datacenter IP alone doesn't cancel a real order. The
+// setting stays absent on variables saved before it existed, so absent means
+// the default; 'none' switches it off.
+const protectedList = lower(str(data.protectedEvents) || 'purchase').split(',');
+const eventName = lower(str(getEventData('event_name'))).split(' ').join('');
+let isProtected = false;
+protectedList.forEach((e) => { if (eventName && e.split(' ').join('') === eventName) isProtected = true; });
+
+const isDatacenter = inRanges(ipInt, DATACENTER_RANGES);
+if (isDatacenter && !declaredAgent) {
+  // Stay under a low threshold too. A score-mode trigger below 41 needs the
+  // threshold field set to the same value for this to hold.
+  if (isProtected) add(threshold > W_DATACENTER_PROTECTED ? W_DATACENTER_PROTECTED : Math.max(threshold - 1, 0), 'datacenter-ip-protected-event');
+  else add(W_DATACENTER, 'datacenter-ip');
+}
+
+if (!ua) add(W_HEADLESS, 'empty-ua');
+else if (automationUa) add(W_HEADLESS, 'automation-ua');
+if (claimsAiCrawler && !verifiedAiCrawler) add(W_HEADLESS, 'unverified-ai-crawler-ua');
+
+// Referral spam: hostname of page_referrer suffix-matched against the bundled
+// traffic-seller list plus the user's extras.
 const refRaw = lower(str(getEventData('page_referrer')));
 const refHost = refRaw ? (refRaw.indexOf('//') !== -1 ? refRaw.split('//')[1] : refRaw).split('/')[0].split(':')[0] : '';
 if (refHost) {
@@ -310,8 +371,6 @@ if (refHost) {
 // "Claims to be a browser" gates. Chromium >=89 sends sec-ch-ua + accept-language
 // on HTTPS; Safari/Firefox don't send sec-ch-ua, so those checks are GATED on a
 // Chromium UA claim — a real Safari user is never penalised for missing hints.
-const claimsChromium = ua.indexOf('chrome/') !== -1 || ua.indexOf('chromium/') !== -1 || ua.indexOf('edg/') !== -1;
-const claimsBrowser = claimsChromium || ua.indexOf('safari') !== -1 || ua.indexOf('firefox') !== -1 || ua.indexOf('gecko/') !== -1;
 
 const secChUa = header('sec-ch-ua');
 if (claimsChromium) {
@@ -376,9 +435,9 @@ if (country && country !== 'xx' && country !== 'zz') {
     return hit;
   };
   const high = lower(str(data.highRiskRegions));
-  if (high && geoMatch(high)) add(W_GEO_HIGH_RISK, 'high-risk-country');
+  if (high && !(isDatacenter && isProtected) && geoMatch(high)) add(W_GEO_HIGH_RISK, 'high-risk-country');
   const inMarket = lower(str(data.inMarketRegions));
-  if (inMarket && isDatacenter && !geoMatch(inMarket)) add(W_GEO_OUT_OF_MARKET, 'out-of-market-datacenter');
+  if (inMarket && isDatacenter && !declaredAgent && !isProtected && !geoMatch(inMarket)) add(W_GEO_OUT_OF_MARKET, 'out-of-market-datacenter');
 }
 
 // Browser behaviour from the Bot Signal by New North web tag: "1.<flags>" in the
@@ -465,6 +524,10 @@ ___SERVER_PERMISSIONS___
               {
                 "type": 1,
                 "string": "page_referrer"
+              },
+              {
+                "type": 1,
+                "string": "event_name"
               },
               {
                 "type": 1,
@@ -737,6 +800,16 @@ scenarios:
       return undefined;
     });
     assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Classification crawler for a verified Googlebot
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '66.249.66.1');
+    mock('getEventData', () => undefined);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('crawler');
 - name: Classification human for a clean visitor
   code: |-
     mockData.outputMode = 'classification';
@@ -841,6 +914,812 @@ scenarios:
       return undefined;
     });
     assertThat(runCode(mockData)).isEqualTo('clean');
+- name: Datacenter alone on a page_view is a bot
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Datacenter alone on a purchase is not a bot
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'purchase' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('suspect');
+- name: Protected event scores 40 with its own reason
+  code: |-
+    mockData.outputMode = 'reasons';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'purchase' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('datacenter-ip-protected-event');
+- name: Protected events none switches protection off
+  code: |-
+    mockData.outputMode = 'classification';
+    mockData.protectedEvents = 'none';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'purchase' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Webdriver from a datacenter still blocks a purchase
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'purchase' : (k === 'nnd_hs' ? '1.w' : undefined)));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Automation UA from a datacenter on a purchase is a bot
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'purchase' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'python-requests/2.31.0';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Declared ChatGPT agent from a datacenter is an agent
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('agent');
+- name: Declared agent scores zero
+  code: |-
+    mockData.outputMode = 'score';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo(0);
+- name: Declared agent reason names the host
+  code: |-
+    mockData.outputMode = 'reasons';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('declared-agent:chatgpt.com');
+- name: Signature-Agent dictionary form is understood
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return 'agent1="https://chatgpt.com/"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('agent');
+- name: Unknown Signature-Agent gets no waiver
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://evil.example"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Lookalike host gets no waiver
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com.evil.example"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Extra declared agent is honoured
+  code: |-
+    mockData.outputMode = 'classification';
+    mockData.declaredAgents = 'agent.example.com';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://agent.example.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('agent');
+- name: Signature-Agent without a signature gets no waiver
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Library UA claiming to be an agent is a bot
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'python-requests/2.31.0';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Declared agent with webdriver is a bot
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : (k === 'nnd_hs' ? '1.w' : undefined)));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Empty string in extra agents does not match an empty host
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Protected datacenter hit scores exactly 40
+  code: |-
+    mockData.outputMode = 'score';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'purchase' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo(40);
+- name: Protected event name ignores case
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'Purchase' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('suspect');
+- name: Protected list matches with spaces
+  code: |-
+    mockData.outputMode = 'classification';
+    mockData.protectedEvents = 'purchase, Order_Completed ';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'order_completed' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('suspect');
+- name: Protected event name may contain a space
+  code: |-
+    mockData.outputMode = 'classification';
+    mockData.protectedEvents = 'Order Completed';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'Order Completed' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('suspect');
+- name: Protected purchase stays under threshold 40
+  code: |-
+    mockData.outputMode = 'classification';
+    mockData.threshold = 40;
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'purchase' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('suspect');
+- name: Protected purchase stays under threshold 30
+  code: |-
+    mockData.outputMode = 'boolean';
+    mockData.threshold = 30;
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'purchase' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo(false);
+- name: Protected purchase gets no out-of-market nudge
+  code: |-
+    mockData.outputMode = 'score';
+    mockData.threshold = 50;
+    mockData.inMarketRegions = 'NL';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'purchase' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo(40);
+- name: Page view still gets the out-of-market nudge
+  code: |-
+    mockData.outputMode = 'reasons';
+    mockData.inMarketRegions = 'NL';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('datacenter-ip,out-of-market-datacenter');
+- name: Webhook without a browser UA stays a bot even when listed
+  code: |-
+    mockData.outputMode = 'classification';
+    mockData.protectedEvents = 'purchase_webhook';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'purchase_webhook' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return undefined;
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Declared agent on a purchase is an agent
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'purchase' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('agent');
+- name: Declared agent gets no out-of-market nudge
+  code: |-
+    mockData.outputMode = 'score';
+    mockData.inMarketRegions = 'NL';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo(0);
+- name: Signature-Agent header case is ignored
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"HTTPS://ChatGPT.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('agent');
+- name: Signature-Agent with a port is understood
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com:443"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('agent');
+- name: Second dictionary member can name the agent
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return 'a="https://other.example", b="https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('agent');
+- name: Userinfo trick gets no waiver
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com:x@evil.example"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Reason carries the list entry not the header text
+  code: |-
+    mockData.outputMode = 'reasons';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://clean,webdriver.chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('declared-agent:chatgpt.com');
+- name: Extra agent list ignores case and spaces
+  code: |-
+    mockData.outputMode = 'classification';
+    mockData.declaredAgents = ' Agent.Example.com ';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://agent.example.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('agent');
+- name: Signature without Signature-Input gets no waiver
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Signature-Input without Signature gets no waiver
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Signature-Input without the web-bot-auth tag gets no waiver
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="other"';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Non-browser UA gets no waiver
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'PostmanRuntime/7.0';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Empty UA gets no waiver
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return undefined;
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Blocked verified crawler with signature headers stays a bot
+  code: |-
+    mockData.outputMode = 'classification';
+    mockData.blockAiCrawlers = true;
+    mockData.threshold = 80;
+    mock('getRemoteAddress', () => '13.65.138.96');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ChatGPT-User/1.0) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Forged signature on a headless UA gets no waiver
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (X11) HeadlessChrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return '"https://chatgpt.com"';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Signature-Agent without a scheme gets no waiver
+  code: |-
+    mockData.outputMode = 'classification';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'page_view' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      if (h === 'signature') return 'sig1=:abc=:';
+      if (h === 'signature-input') return 'sig1=("@authority" "signature-agent");created=1;keyid="k";tag="web-bot-auth"';
+      if (h === 'signature-agent') return 'chatgpt.com';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo('bot');
+- name: Protected purchase gets no high-risk nudge
+  code: |-
+    mockData.outputMode = 'score';
+    mockData.threshold = 50;
+    mockData.highRiskRegions = 'US';
+    mock('getRemoteAddress', () => '3.5.140.2');
+    mock('getEventData', (k) => (k === 'event_name' ? 'purchase' : undefined));
+    mock('getCookieValues', (n) => []);
+    mock('getRequestHeader', (h) => {
+      if (h === 'user-agent') return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+      if (h === 'sec-ch-ua') return '"Chromium";v="124", "Not.A/Brand";v="24"';
+      if (h === 'sec-ch-ua-platform') return '"Windows"';
+      if (h === 'sec-ch-ua-mobile') return '?0';
+      if (h === 'accept-language') return 'en-US,en;q=0.9';
+      if (h === 'accept-encoding') return 'gzip, deflate, br';
+      if (h === 'cf-ipcountry') return 'us';
+      return undefined;
+    });
+    assertThat(runCode(mockData)).isEqualTo(40);
 setup: |-
   const mockData = {
     outputMode: 'score',
@@ -861,7 +1740,7 @@ NND Bot Score — server-side bot scoring for sGTM (Stape / Taggrs / any sGTM ho
 WHAT IT GATES
   This variable scores the *measurement* request, not site access. Wire it as a
   blocking-trigger exception on the GA4 server tag (block when "NND Bot Score"
-  is greater than your threshold) to keep bot hits out of GA4. It cannot stop a
+  is at or above your threshold) to keep bot hits out of GA4. It cannot stop a
   crawler from reading the site — that is robots.txt / WAF territory.
 
 ROLLOUT (shadow mode first)
@@ -872,8 +1751,9 @@ ROLLOUT (shadow mode first)
      positive here = a lost real conversion, so don't block on day one.
 
 SIGNALS & WEIGHTS (see the W_* constants)
-  Datacenter IP (70) and spam referrer (70) are the decisive levers; either
-  alone meets the default threshold. Everything else corroborates:
+  Datacenter IP (70, or 40 on a protected event) and spam referrer (70) are the
+  decisive levers; outside protected events, either alone meets the default
+  threshold. Everything else corroborates:
   automation/empty UA (40); missing/forged client hints (25/20); platform &
   mobile mismatch (25/20); missing accept-language / accept-encoding (15/15);
   outdated Chromium (10); geo nudges (10). With the Bot Signal web tag:
@@ -908,6 +1788,23 @@ BUNDLED RANGES
   Google special crawlers). Refresh them periodically with build-ranges.mjs.
   Anthropic ClaudeBot and PerplexityBot publish no stable machine-readable
   range list, so they are matched by UA only (not IP-verifiable) for now.
+
+AI AGENTS AND PROTECTED EVENTS
+  An AI agent acting for one person is a customer, not a bot, and cloud agents
+  browse from datacenter IPs. Two things keep their orders:
+  - Declared agents: a browser UA with Signature, a Signature-Input tagged
+    web-bot-auth and a Signature-Agent host on the list has the datacenter signals
+    waived and classifies as "agent" under the threshold. The sandbox has no
+    Ed25519 verify, so this trusts a claim: a bot that forges those headers
+    escapes the datacenter signals, nothing else.
+  - Protected events (default purchase): a datacenter IP alone scores 40, or just
+    under a lower threshold, so an undeclared cloud agent, VPN user or company
+    network keeps the order. Its earlier page_views may still be blocked, so the
+    order can arrive without a source in GA4; a missing source beats missing revenue.
+  Order events your own server sends (webhooks) carry no browser headers and
+  still score as bots, so leave them out of the blocking trigger altogether.
+  Verified crawlers classify as "crawler". Browser-based agents on a person's
+  own device look like that person to the server.
 
 BOT SIGNAL (browser behaviour)
   Headers and IPs can't show behaviour. The companion web tag "Bot Signal by

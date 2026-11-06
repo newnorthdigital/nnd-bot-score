@@ -12,7 +12,7 @@ GA4 already drops known IAB bots. What it misses is **headless browsers, scrapin
 
 | Signal | Weight | Notes |
 | --- | --- | --- |
-| Client IP in a datacenter / hosting range | 70 | Primary, region-agnostic. Matched against bundled, official cloud ranges (AWS, GCP, Azure, DO, Hetzner, OVH, Linode, Vultr). |
+| Client IP in a datacenter / hosting range | 70 (40 on a protected event, 0 for a declared AI agent) | Primary, region-agnostic. Matched against bundled, official cloud ranges (AWS, GCP, Azure, DO, Hetzner, OVH, Linode, Vultr). |
 | Referrer is a known traffic-seller / spam domain | 70 | Primary. `page_referrer` hostname suffix-matched against a bundled list (trafficheap.cc, sparktraffic.com, babylontraffic.com, simpletraffic.co, trafficbot.life, GA4-era referral spam like `grets.store`, classic UA-era spammers) plus your own additions. Catches paid-traffic bots on residential proxies that the IP ranges can't. |
 | `navigator.webdriver` is true (needs the Bot Signal web tag) | 70 | Primary. The browser is under automation (Selenium, Puppeteer, Playwright without stealth patches). |
 | Scrolled more than a viewport with no input all session (needs the Bot Signal web tag) | 40 | Scripts scroll with `window.scrollTo`, which fires `scroll` but no wheel, touch, key or pointer event. Ignored once the session shows any real input. |
@@ -24,12 +24,23 @@ GA4 already drops known IAB bots. What it misses is **headless browsers, scrapin
 | Browser UA with no `accept-language` | 15 | |
 | Browser UA with no `accept-encoding` | 15 | Real browsers always send `gzip`/`br`. |
 | Implausibly old Chromium major version | 10 | Real fleets auto-update. |
-| Datacenter IP outside the client's market | 10 | Score-only nudge, never blocks. |
-| Country on a high-risk list | 10 | Score-only nudge, never blocks. |
+| Datacenter IP outside the client's market | 10 | Score-only nudge, skipped on protected events. |
+| Country on a high-risk list | 10 | Score-only nudge, skipped for datacenter IPs on protected events. |
 
 The score is capped at 100. A clean residential browser scores **0**; a residential IP must fail several integrity checks at once to cross 70, so the datacenter and spam-referrer signals stay the decisive levers.
 
 **Verified AI crawlers are whitelisted by default** (score 0). "Verified" means the UA matches a known crawler **and** the IP is in that crawler's published range (GPTBot, ChatGPT-User, OAI-SearchBot, Googlebot, Google special crawlers are bundled), so a spoofed `GPTBot` UA from a random host is still scored normally. Flip **Count verified AI crawlers as bots** on if you want clean human-only analytics.
+
+## AI agents and protected events
+
+An AI agent acting for one person is a customer, and cloud agents browse from datacenter IPs. Two rules keep their orders in your data:
+
+- **Declared agents.** A browser UA with `Signature`, a `Signature-Input` tagged `web-bot-auth` and a `Signature-Agent` host on the list ([Web Bot Auth](https://datatracker.ietf.org/doc/html/draft-ietf-webbotauth-httpsig-protocol), bundled: `chatgpt.com`) has the datacenter signals waived and classifies as `agent` under the threshold. The sGTM sandbox can't verify the signature, so this trusts a claim: a bot that forges the headers escapes the datacenter signals and nothing else. Only browser UAs outside the automation list qualify.
+- **Protected events** (default `purchase`). A datacenter IP alone scores 40, or just under a lower threshold, so a VPN user, a company network or an undeclared cloud agent keeps the order. Automation signals still add up to a block. Earlier page views from that visitor may be blocked, so the order can arrive in GA4 without a source.
+
+Order events your own server sends (webhooks) carry no browser headers and still score as bots, so leave them out of the blocking trigger altogether.
+
+Agents running in a person's own browser look like that person to the server. The Web Bot Auth header reaching your container is untested on real agent traffic so far.
 
 ## Browser behaviour: Bot Signal web tag
 
@@ -55,18 +66,20 @@ Download `template.tpl`, then GTM → **Templates** → **New** → ⋮ → **Im
 
 1. Create a **Variable** of type *NND Bot Score*. Leave **Output** on `Score`.
 2. **Shadow mode first.** Add the variable as a GA4 event parameter (e.g. `debug_bot_score`) or just watch it in Preview, and observe the distribution on real traffic for a few days. A false positive here is a *lost real conversion*, so don't block on day one.
-3. When a threshold looks safe, add a **blocking trigger** to your GA4 server tag: *Block when* `NND Bot Score` *is greater than* your threshold (70 is the default — a datacenter IP alone).
+3. When a threshold looks safe, add a **blocking trigger** to your GA4 server tag: *Block when* `NND Bot Score` *is greater than or equal to* your threshold (70 is the default, which a datacenter IP alone reaches outside protected events).
 
 ## Fields
 
 | Field | Default | Purpose |
 | --- | --- | --- |
-| **Output** | `Score` | `Score` (0–100 integer), `Boolean` (true when score ≥ threshold), `Reasons` (comma-separated reason string, `clean` when none), or `Classification` (`human` / `suspect` / `bot` — `human` at 0, `bot` at/above threshold, `suspect` in between). |
-| **Block threshold** | `70` | Cut-off used in boolean mode; the recommended trigger cut-off in score mode. |
+| **Output** | `Score` | `Score` (0–100 integer), `Boolean` (true when score ≥ threshold), `Reasons` (comma-separated reason string, `clean` when none), or `Classification` (`human` / `suspect` / `agent` / `crawler` / `bot` — `agent` for a declared AI agent and `crawler` for an allowed verified crawler, `human` at 0, `bot` at/above threshold, `suspect` in between). |
+| **Block threshold** | `70` | Cut-off used in boolean mode; the recommended trigger cut-off in score mode. A score-mode trigger below 41 needs this field set to the same value to keep protected events working. |
 | **Count verified AI crawlers as bots** | off | Off = whitelist verified crawlers to 0. On = score them above threshold. |
+| **Protected events** | `purchase` | Comma-separated event names where a datacenter IP alone scores 40 instead of 70 (just under the threshold if that is 40 or lower). Enter `none` to switch off. |
 | **Country header override** | _(auto)_ | Header carrying a 2-letter country code. Empty = auto-detect `cf-ipcountry`, `x-vercel-ip-country`, `cloudfront-viewer-country`, `x-appengine-country`, `x-geo-country`, `x-country-code`. |
 | **In-market countries / regions** | _(none)_ | 2-letter country codes (`NL`, `BE`) and/or continent codes (`EU`, `NA`, `AS`, `AF`, `SA`, `OC`). Datacenter IPs geolocating outside these get a small nudge; in-market traffic is never penalised. |
 | **High-risk countries / regions** | _(none)_ | Same country/continent syntax — a score-only nudge for the listed places. |
+| **Extra declared AI agents** | _(none)_ | `Signature-Agent` hostnames to treat as declared AI agents on top of the bundled list. |
 | **Extra spam referrer domains** | _(none)_ | Comma-separated domains scored as referral spam on top of the bundled traffic-seller list. Matched against the `page_referrer` hostname including subdomains. A match alone meets the default threshold. |
 
 ## IP & header availability
@@ -76,7 +89,7 @@ Download `template.tpl`, then GTM → **Templates** → **New** → ⋮ → **Im
 ## Permissions
 
 - `read_request` — client IP + request headers.
-- `read_event_data` — `ip_override`, `user_agent`, `page_referrer`, `nnd_hs`.
+- `read_event_data` — `ip_override`, `user_agent`, `page_referrer`, `event_name`, `nnd_hs`.
 - `get_cookies` — `_nnd_hs` (Bot Signal flags).
 - `logging` — debug logging in Preview only.
 
