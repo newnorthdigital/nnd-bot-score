@@ -1,6 +1,8 @@
 homepage: "https://newnorth.nl"
 documentation: "https://github.com/newnorthdigital/nnd-bot-score/blob/main/README.md"
 versions:
+  - sha: 60ae53f9e556ba44bd0ccdf3d2c700ecbafe89d0
+    changeNotes: "AI agents and protected events. A datacenter IP alone now scores 40 instead of 70 on protected events (default purchase), so orders from VPNs, company networks and cloud agents are kept. Enter none to switch this off. Requests with Web Bot Auth headers naming a listed agent classify as agent. Allowed verified crawlers classify as crawler instead of human, so update any trigger that compares the classification to human."
   - sha: fbcf1c953235ec6dba3ddd7e67cd6062009ed913
     changeNotes: "Browser behaviour signals from the Bot Signal by New North web tag: webdriver (weight 70) and scripted scroll without any input (weight 40). Read from the _nnd_hs cookie or the nnd_hs event parameter."
   - sha: 661e17f706459424bb3ed25b5b328732ae6ceb79
